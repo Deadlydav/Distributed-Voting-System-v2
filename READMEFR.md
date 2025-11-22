@@ -33,6 +33,58 @@ Un **système de vote électronique distribué** de qualité production conçu p
 
 ---
 
+## Cas d'Usage
+
+Cette infrastructure de vote pourrait être déployée dans divers scénarios démocratiques:
+
+### Cas d'Usage 1: Élections Traditionnelles
+
+Le système prend en charge les processus électoraux standards:
+- Vote à choix unique pour élections simples
+- Vote par classement (RCV) pour scrutins préférentiels
+- Représentation régionale avec agrégation nationale
+- Résultats en temps réel avec pistes d'audit
+
+### Cas d'Usage 2: Référendums Citoyens
+
+La même infrastructure pourrait permettre des votes de démocratie directe sur la législation. Exemples où des mécanismes de référendum ont été discutés:
+
+1. **Ajustements Salariaux Parlementaires (Canada, avril 2024)**
+   - Députés ont reçu augmentation de 4,4% (Députés: 203 100$/an, PM: 406 200$)
+   - Sondages montraient 80% d'opposition publique
+   - Actuellement automatique sans mécanisme de consultation citoyenne
+
+2. **Réformes Politiques de Santé (Québec, octobre 2024)**
+   - Loi 2 a imposé changements de rémunération des médecins
+   - Certains médecins confrontés à réductions salariales jusqu'à 145 000$
+   - Le ministre Lionel Carmant a démissionné; associations médicales ont déposé recours judiciaires
+   - Adoptée sous vote de clôture sans consultation étendue
+
+3. **Tendance Mondiale Vers la Démocratie Directe**
+   - 700+ protestations citoyennes dans 147+ pays (2023-2024)
+   - Demande croissante pour mécanismes de référendum sur décisions politiques majeures
+   - Technologie permettant participation citoyenne en temps réel à grande échelle
+
+### Capacités Techniques
+
+Ce système fournit:
+- **Évolutivité**: Conçu pour 8M électeurs simultanés
+- **Flexibilité**: Vote de lois OU élections OU les deux
+- **Sécurité**: Authentification par hachage, aucune donnée personnelle stockée
+- **Transparence**: Code source ouvert, résultats vérifiables
+- **Performance**: Cible de 1 000 votes/sec en production
+
+### Options d'Implémentation
+
+Les organisations pourraient déployer ceci pour:
+- Élections municipales/provinciales
+- Votes syndicaux ou scrutins organisationnels
+- Référendums législatifs (si légalement autorisés)
+- Programmes pilotes testant modèles de démocratie directe
+- Recherche académique sur systèmes de vote
+
+---
+
 ## Table des Matières
 
 1. [Fonctionnalités](#fonctionnalités)
