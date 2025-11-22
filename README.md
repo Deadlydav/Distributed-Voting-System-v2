@@ -33,6 +33,58 @@ A production-grade **distributed electronic voting system** engineered to handle
 
 ---
 
+## Use Cases
+
+This voting infrastructure could be deployed in various democratic scenarios:
+
+### Use Case 1: Traditional Elections
+
+The system supports standard electoral processes:
+- Single-choice voting for simple elections
+- Ranked-choice voting (RCV) for preferential ballots
+- Regional representation with national aggregation
+- Real-time results with audit trails
+
+### Use Case 2: Citizen Referendums
+
+The same infrastructure could enable direct democracy votes on legislation. Examples where referendum mechanisms have been discussed:
+
+1. **Parliamentary Salary Adjustments (Canada, April 2024)**
+   - MPs received 4.4% increase (MPs: $203,100/year, PM: $406,200)
+   - Polling showed 80% public opposition
+   - Currently automatic with no citizen input mechanism
+
+2. **Healthcare Policy Reforms (Quebec, October 2024)**
+   - Bill 2 imposed physician compensation changes
+   - Some doctors faced salary reductions up to $145,000
+   - Minister Lionel Carmant resigned; medical associations filed legal challenges
+   - Passed under closure vote without extended consultation
+
+3. **Global Trend Toward Direct Democracy**
+   - 700+ citizen protests in 147+ countries (2023-2024)
+   - Growing demand for referendum mechanisms on major policy decisions
+   - Technology enabling real-time citizen participation at scale
+
+### Technical Capabilities
+
+This system provides:
+- **Scalability**: Designed for 8M concurrent voters
+- **Flexibility**: Law voting OR elections OR both
+- **Security**: Hash-based authentication, zero PII storage
+- **Transparency**: Open source, auditable results
+- **Performance**: 1,000 votes/sec production target
+
+### Implementation Options
+
+Organizations could deploy this for:
+- Municipal/provincial elections
+- Union votes or organizational ballots
+- Legislative referendums (if legally enabled)
+- Pilot programs testing direct democracy models
+- Academic research on voting systems
+
+---
+
 ## Table of Contents
 
 1. [Features](#features)
