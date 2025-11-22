@@ -4,6 +4,8 @@
 **License:** MIT License
 **Status:** 🚧 **DEMO VERSION - FUNCTIONAL BUT INCOMPLETE** 🚧
 
+**[📖 Lire en Français](./READMEFR.md)** | **[🇬🇧 English Version](./README.md)**
+
 ---
 
 ## Executive Summary
